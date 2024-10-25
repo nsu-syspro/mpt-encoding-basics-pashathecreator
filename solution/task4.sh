@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
-# ≤Î“’·‚ÿ ‘–‚„ “ ‰ﬁ‡‹–‚’:
+# –ü—Ä–∏–º–µ—Ä –¥–∞—Ç—ã –≤ —Ñ–æ—Ä–º–∞—Ç–µ:
 #   Freitag, 13. Oktober 2023
-date '+???' -d "$@"
+
+LC_ALL=de_DE.UTF-8
+LC_TIME=de_DE.UTF-8 
+date '+%A, %d. %B %Y' -d "$@"
